@@ -1,5 +1,5 @@
 # Porter-Account-Generator
-Generates Accounts on mrporter.com
+Generates Accounts on [Mr.Porter](https://www.mrporter.com)
 
 ## Instructions:
 * Download repo.
