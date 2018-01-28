@@ -9,9 +9,12 @@ headers = {
 	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
 	"Accept-Encoding": "gzip, deflate, br",
 	"Accept-Language": "en-US,en;q=0.9"
-} 
-email = "minnat10@mxnnxt.com"
+}
+#EDIT THIS
+email = "email@domain.com"
 password = "Test123"
+firstName = "John"
+lastName = "Doe"
 
 def create_account():
 	print("SUBMITTING INFO.....")
@@ -20,8 +23,8 @@ def create_account():
 	url = "https://www.mrporter.com/am/en-us/lightRegistration.mrp"
 	payload = {
 		"title":"Mr",
-		"firstName":"John",
-		"lastName":"Doe",
+		"firstName":firstName,
+		"lastName":lastName,
 		"email":email,
 		"emailConfirmIfError":"false",
 		"password":password,
